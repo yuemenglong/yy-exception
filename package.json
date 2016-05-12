@@ -1,0 +1,33 @@
+{
+  "name": "yy-exception",
+  "version": "1.0.0",
+  "description": "class Exception to make Error easy",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuemenglong/yy-exception.git"
+  },
+  "keywords": [
+    "nodejs",
+    "Exception",
+    "Error"
+  ],
+  "author": "yuemenglong@126.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuemenglong/yy-exception/issues"
+  },
+  "homepage": "https://github.com/yuemenglong/yy-exception#readme",
+  "dependencies": {
+    "lodash": "^4.12.0"
+  },
+  "devDependencies": {
+    "should": "^8.3.1"
+  }
+}

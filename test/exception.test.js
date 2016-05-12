@@ -1,8 +1,5 @@
 var should = require("should");
-
-var common = require("../..");
-var Exception = common.Exception;
-var logger = common.logger;
+var Exception = require("..");
 
 describe('Exception', function() {
     it('Trans Error To Exception', function(done) {
